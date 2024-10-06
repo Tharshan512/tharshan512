@@ -1,0 +1,84 @@
+@media only screen and (max-width: 480px) {
+    body { 
+        background: linear-gradient(to bottom, #0d47a1 0%, #bbdefb 100%); 
+        color: #333; /* Change to a darker color for better contrast */
+        font-family: Verdana, Geneva, Arial, sans-serif; 
+        padding: 0; 
+        margin: 0; 
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, li { 
+        margin-left: 15px; 
+        margin-top: 0; 
+        color: #333; /* Ensures headings and paragraphs are dark for contrast */
+    } 
+    
+    #wrapper {
+        width: 100%; 
+        background-color: #42a5f5; 
+    } 
+    
+    #right-column { 
+        width: 100%; 
+        float: none; 
+        height: 1200px; 
+        background-color: #2196f3; 
+        color: #ffffff; /* Ensures text is readable on this background */
+    } 
+    
+    #left-column { 
+        float: none; 
+        height: 120px; 
+        width: 100%; 
+        background-color: #bbdefb; 
+        color: #333; /* Dark text for better readability */
+    } 
+    
+    /* Header and footer common styles */
+    header, footer {
+        background: linear-gradient(45deg, #000000, #0000fa43);
+        background-color: #0084ff;
+        color: #ffffff;
+        padding: 5px 0;
+    }
+    
+    #footer { 
+        height: 80px; 
+        background-color: #000000; 
+        color: #ffffff; /* Ensure footer text is readable */
+    } 
+    
+    #banner { 
+        height: 100px; 
+        background-color: #000000; 
+        color: #ffffff; /* Ensure banner text is readable */
+    } 
+    
+    .box { 
+        width: 90%; 
+        min-height: 120px; 
+        background-color: #bbdefb; 
+        margin: 15px; 
+        opacity: 1; 
+    } 
+    
+    .button { 
+        font-size: x-large; 
+        text-decoration: none; 
+        background-color: #1976d2; 
+        display: block; 
+        width: 90%; /* Increased width for better usability on mobile */
+        padding: 10px; /* Increased padding for better touch targets */
+        margin: 5px auto; /* Centered button with auto margin */
+        border-radius: 5px; 
+        box-shadow: 5px 5px 3px #64b5f6; 
+        color: #ffffff; /* Ensure text on buttons is readable */
+        text-align: center; /* Center text in buttons */
+    } 
+    
+    .button:hover { 
+        box-shadow: 5px 5px 3px #ffffff; 
+        background-color: #42a5f5; 
+        color: #000000; 
+    }
+}
